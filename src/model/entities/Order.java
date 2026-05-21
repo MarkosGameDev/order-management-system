@@ -1,9 +1,12 @@
 package model.entities;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Order {
+public class Order implements Serializable{
 
+	private static final long serialVersionUID = 1L;
+	
 	private Integer id;
 	private Integer userId;
 	private String description;

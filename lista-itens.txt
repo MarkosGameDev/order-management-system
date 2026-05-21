@@ -1,0 +1,10 @@
+Pizza Calabresa, 35.0
+Hambúrguer Artesanal, 28.5
+Batata Frita, 15.0
+Refrigerante Lata, 8.0
+Suco Natural, 12.0
+Cachorro Quente, 18.0
+Lasanha, 32.0
+Milkshake Chocolate, 20.0
+Açaí 500ml, 22.0
+Sorvete, 10.0
