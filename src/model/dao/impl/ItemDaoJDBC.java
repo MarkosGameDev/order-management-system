@@ -135,7 +135,7 @@ public class ItemDaoJDBC implements ItemDao {
 		try {
 
 			st = conn.prepareStatement(
-					"SELECT * FROM items ORDER BY name");
+					"SELECT * FROM items ORDER BY id");
 
 			rs = st.executeQuery();
 

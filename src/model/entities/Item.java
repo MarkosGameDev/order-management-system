@@ -63,7 +63,9 @@ public class Item implements Serializable{
 
 	@Override
 	public String toString() {
-		return "Item [id: " + id + ", name: " + name + ", price: " + price + "]";
+		return "ID: " + id 
+				+ " | Name: " + name 
+				+ " | Price: R$ " + price;
 	}
 	
 	

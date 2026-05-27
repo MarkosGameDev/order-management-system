@@ -49,7 +49,6 @@ public class Program {
 		User user = new User(null, name, email, address, false);
 		userDao.insert(user);
 		
-		 */
 		
 		String path = "C:\\projetos_eclipse\\order-management-system\\lista-itens.txt";
 		
@@ -76,6 +75,16 @@ public class Program {
 		} catch (IOException e) {
 			System.out.println("Erro: " + e.getMessage());
 		}
+		
+		 */
+		System.out.println("=== ITEMS ===");
+		System.out.println();
+		List<Item> listItens = itemDao.findAll();
+		for(Item item : listItens) {
+			System.out.println(item);
+		}
+		System.out.println();
+		System.out.println("============");
 		
 		sc.close();
 	}
