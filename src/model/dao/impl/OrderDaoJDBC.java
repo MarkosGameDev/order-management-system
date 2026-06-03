@@ -29,7 +29,7 @@ public class OrderDaoJDBC implements OrderDao{
 			
 			st = conn.prepareStatement(
 					"INSERT INTO orders " +
-					"(userId, description, totalAmount) " +
+					"(user_id, description, total_amount) " +
 					"VALUES " +
 					"(?, ?, ?)",
 					Statement.RETURN_GENERATED_KEYS);
